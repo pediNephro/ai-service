@@ -50,4 +50,16 @@ POST /ocr
 
 ## 🧪 Example
 
-### Input:
+### Input: 
+créatinine 150 urée 12 potassium 6
+
+
+### Output:
+CRITICAL RISK
+
+
+## ▶️ Run the project
+
+```bash
+pip install -r requirements.txt
+uvicorn main:app --reload
