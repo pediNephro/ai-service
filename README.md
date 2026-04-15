@@ -1,35 +1,37 @@
 # 🧠 AI Service - PediNephro
 
-This microservice provides AI-based analysis for medical documents in the PediNephro platform.
+## 📌 Description
+
+This microservice provides intelligent analysis of medical documents in the PediNephro system.
+
+It performs classification and detects renal risk based on extracted medical values.
 
 ---
 
 ## 🚀 Features
 
-- 📄 OCR processing (extract text from medical documents)
+- 📄 OCR text processing
 - 🧠 Document classification (BILAN, ORDONNANCE, AUTRE)
-- ⚠️ Renal risk detection based on medical values (créatinine, urée, potassium)
-- 📊 Basic AI scoring system
+- ⚠️ Renal risk detection (créatinine, urée, potassium)
+- 📊 Confidence scoring
 
 ---
 
 ## 🏗️ Architecture
 
-This service is part of a microservices architecture:
+This service is part of a microservices system:
 
-- medical-media-service → manages documents
-- ai-service → handles AI logic
-- hospitalisation-service → patient care
-- frontend → Angular interface
+- medical-media-service → document management
+- ai-service → AI analysis
+- hospitalisation-service → patient management
 
 ---
 
 ## ⚙️ Technologies
 
-- Python
-- FastAPI
-- Machine Learning (basic NLP logic)
+- Python (FastAPI)
 - REST API
+- Basic NLP logic
 
 ---
 
@@ -46,8 +48,6 @@ POST /ocr
 
 ---
 
-## ▶️ Run the project
+## 🧪 Example
 
-```bash
-pip install -r requirements.txt
-uvicorn main:app --reload
+### Input:
